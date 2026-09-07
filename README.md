@@ -38,19 +38,19 @@ Contains information about customer purchases, including order details, quantiti
 The relationships between these tables allow the project to connect books → customers → orders → sales insights.
 
 ## 📊 Project Analysis Flow
-Books
+**Books**
+  ↓ 
+**Book & Inventory Analysis**
   ↓
-Book & Inventory Analysis
+**Customers**
   ↓
-Customers
+**Customer & Order Analysis**
   ↓
-Customer & Order Analysis
+**Orders**
   ↓
-Orders
+**Sales Analysis**
   ↓
-Sales Analysis
-  ↓
-Customer & Inventory Insights
+**Customer & Inventory Insights**
 
 The analysis combines information from different tables using SQL joins and aggregation to produce meaningful business insights.
 
