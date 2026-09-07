@@ -37,23 +37,6 @@ Contains customer-related information such as customer details and location.
 Contains information about customer purchases, including order details, quantities, dates, and order amounts.
 The relationships between these tables allow the project to connect books → customers → orders → sales insights.
 
-## 📊 Project Analysis Flow
-**Books**
-  ↓ 
-**Book & Inventory Analysis**
-  ↓
-**Customers**
-  ↓
-**Customer & Order Analysis**
-  ↓
-**Orders**
-  ↓
-**Sales Analysis**
-  ↓
-**Customer & Inventory Insights**
-
-The analysis combines information from different tables using SQL joins and aggregation to produce meaningful business insights.
-
 ## 🔍 Analysis Performed
  1. Book & Inventory Analysis
 
