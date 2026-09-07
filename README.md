@@ -19,7 +19,7 @@ The project contains both Basic SQL Queries and Advanced SQL Queries, with query
 ## 🗂️ Database Structure
 The project is based on a relational bookstore database containing the following main entities:
 
-# 📖 Books
+## 📖 Books
 Contains information related to books and inventory.
 
 -Book Id - Unique identifier for each book.
@@ -30,10 +30,10 @@ Contains information related to books and inventory.
 -Price - Price of the book.
 -Stock - Available stock.
 
-# 👤 Customers
+## 👤 Customers
 Contains customer-related information such as customer details and location.
 
-# 🛒 Orders
+## 🛒 Orders
 Contains information about customer purchases, including order details, quantities, dates, and order amounts.
 The relationships between these tables allow the project to connect books → customers → orders → sales insights.
 
@@ -55,7 +55,7 @@ Customer & Inventory Insights
 The analysis combines information from different tables using SQL joins and aggregation to produce meaningful business insights.
 
 ## 🔍 Analysis Performed
-# 1. Book & Inventory Analysis
+ 1. Book & Inventory Analysis
 
 -The project analyzes:
 -Books by genre.
@@ -66,7 +66,7 @@ The analysis combines information from different tables using SQL joins and aggr
 -Total available stock.
 -Average book price by genre.
 
-# 2. Customer Analysis
+ 2. Customer Analysis
 
 -The project analyzes:
 -Customers by country and city.
@@ -75,7 +75,7 @@ The analysis combines information from different tables using SQL joins and aggr
 -Customer spending.
 -High-value customer activity.
 
-# 3. Order Analysis
+ 3. Order Analysis
 
 -The project examines:
 -Order quantities.
@@ -85,7 +85,7 @@ The analysis combines information from different tables using SQL joins and aggr
 -Orders within selected date ranges.
 -Relationships between customers and their orders.
 
-# 4. Sales Analysis
+ 4. Sales Analysis
 The project uses order and book information to analyze:
 
 -Total revenue.
@@ -94,7 +94,7 @@ The project uses order and book information to analyze:
 -Author-level sales performance.
 -Average price by genre.
 
-# 5. Inventory Insights
+ 5. Inventory Insights
 The project also connects stock information with order quantities to analyze:
 
 -Remaining inventory after sales.
